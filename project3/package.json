@@ -1,0 +1,24 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "This is a description to be changed at a later time.",
+  "homepage": "https://github.com/wcu-edu/p1-team-danny-foster-elijah-mccray#readme",
+  "bugs": {
+    "url": "https://github.com/wcu-edu/p1-team-danny-foster-elijah-mccray/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wcu-edu/p1-team-danny-foster-elijah-mccray.git"
+  },
+  "license": "ISC",
+  "author": "Daniel Foster and Elijah McCray",
+  "type": "commonjs",
+  "main": "client_network.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "5.1.0",
+    "axios": "1.12.2"
+  }
+}

@@ -1,0 +1,671 @@
+{
+	"networkName": "United Kingdom Railway System",
+	"routes":[
+		{
+			"name" : "East Coast Main Line",
+			"color" : "Red",
+			"stops": [ 
+				{ 
+				  "stop": 1,
+				  "stationName": "London",
+				  "stationID": 1,
+				  "distanceToNext" : 75,
+				  "distanceToPrev" : null
+				},
+				{ 
+					"stop": 2,
+					"stationName":"Cambridge",
+					"stationID" : 2,
+					"distanceToNext" : 40,
+					"distanceToPrev" : 75
+				},
+				{
+					"stop": 3,
+					"stationName" :"Peterborough",
+					"stationID" : 3,
+					"distanceToNext" : 80,
+					"distanceToPrev" : 40
+				},
+				{
+					"stop": 4,
+					"stationName" : "Doncaster",
+					"stationID" : 51,
+					"distanceToNext": 50,
+					"distanceToPrev": 80
+				},
+				{
+					"stop" : 5,
+					"stationName" :	"Hull", 
+					"stationID" : 4,
+					"distanceToNext" : 75,
+					"distanceToPrev" : 50
+				},
+				{
+					"stop" : 6,
+					"stationName":"York",
+					"stationID": 5,
+					"distanceToNext": 50,
+					"distanceToPrev": 75
+				},
+                {
+                    "stop" : 7,
+                    "stationName": "Durham",
+                    "stationID": 52,
+                    "distanceToNext": 30,
+                    "distanceToPrev": 50
+
+                },
+				{
+					"stop": 8,
+					"stationName" : "Newcastle Upon Tyne",
+					"stationID" : 6,
+					"distanceToNext": 100,
+					"distanceToPrev": 30
+				},
+				{
+					"stop": 9,
+					"stationName": "Edinburgh",
+					"stationID": 7,
+					"distanceToNext": null,
+					"distanceToPrev": 100
+				}
+			] 
+			
+		},
+		{
+			"name" : "West Coast Main Line",
+			"color" : "blue",
+			"stops" : [ 
+						{ 
+						  "stop": 1,
+						  "stationName": "London",
+						  "stationID": 1,
+						  "distanceToNext" : 60,
+						  "distanceToPrev" : null
+						},
+						{
+							"stop" : 2,
+							"stationName" : "St Albans",
+							"stationID": 100,
+							"distanceToNext": 70,
+							"distanceToPrev": 60
+						},
+						{
+							"stop" : 3,
+							"stationName" : "Northampton",
+							"stationID": 54,
+							"distanceToNext": 65,
+							"distanceToPrev" : 70
+						},
+						{ 
+						  "stop": 4,
+						  "stationName": "Birmingham",
+						  "stationID": 8,
+						  "distanceToNext" : 70,
+						  "distanceToPrev" : 65
+						},
+						{ 
+						  "stop": 5,
+						  "stationName": "Wrexham",
+						  "stationID": 9,
+						  "distanceToNext" : 40,
+						  "distanceToPrev" : 70
+						},
+						{ 
+						  "stop": 6,
+						  "stationName": "Liverpool",
+						  "stationID": 10,
+						  "distanceToNext" : 35,
+						  "distanceToPrev" : 40
+						},
+						{ 
+						  "stop": 7,
+						  "stationName": "Manchester",
+						  "stationID": 11,
+						  "distanceToNext" : 50,
+						  "distanceToPrev" : 35
+						},
+						{ 
+						  "stop": 8,
+						  "stationName": "Lancaster",
+						  "stationID": 12,
+						  "distanceToNext" : 60,
+						  "distanceToPrev" : 50
+						},
+						{ 
+						  "stop": 9,
+						  "stationName": "Kendall",
+						  "stationID": 13,
+						  "distanceToNext" : 75,
+						  "distanceToPrev" : 60
+						},
+						{ 
+						  "stop": 10,
+						  "stationName": "Carlisle",
+						  "stationID": 14,
+						  "distanceToNext" : 110,
+						  "distanceToPrev" : 75
+						},
+						{ 
+						  "stop": 11,
+						  "stationName": "Glasgow",
+						  "stationID": 15,
+						  "distanceToNext" : null,
+						  "distanceToPrev" : 110
+						}
+					]
+		},
+		{
+			"name" : "Great Western Railway Line",
+			"color" : "Magenta",
+			"stops" : [
+						{ 
+						  "stop": 1,
+						  "stationName": "London",
+						  "stationID": 1,
+						  "distanceToNext" : 35,
+						  "distanceToPrev" : null
+						},
+						{ 
+						  "stop": 2,
+						  "stationName": "Reading",
+						  "stationID": 16,
+						  "distanceToNext" : 60,
+						  "distanceToPrev" : 35
+						},
+						{ 
+						  "stop": 3,
+						  "stationName": "Bath",
+						  "stationID": 17,
+						  "distanceToNext" : 40,
+						  "distanceToPrev" : 60
+						},
+						{ 
+						  "stop": 4,
+						  "stationName": "Bristol",
+						  "stationID": 18,
+						  "distanceToNext" : 45,
+						  "distanceToPrev" : 40
+						},
+						{ 
+						  "stop": 5,
+						  "stationName": "Cardiff",
+						  "stationID": 19,
+						  "distanceToNext" : 55,
+						  "distanceToPrev" : 45
+						},
+						{ 
+						  "stop": 6,
+						  "stationName": "Swansea",
+						  "stationID": 20,
+						  "distanceToNext" : 55,
+						  "distanceToPrev" : 55
+						},
+						{ 
+						  "stop": 7,
+						  "stationName": "Pembroke",
+						  "stationID": 21,
+						  "distanceToNext" : 35,
+						  "distanceToPrev" : 55
+						},
+						{ 
+						  "stop": 8,
+						  "stationName": "Fishguard",
+						  "stationID": 22,
+						  "distanceToNext" : null,
+						  "distanceToPrev" : 35
+						}
+					]
+			
+		},
+		{
+			"name" : "Network South West Line",
+			"color": "orange",
+			"stops": [
+						{ 
+						  "stop": 1,
+						  "stationName": "Birmingham",
+						  "stationID": 8,
+						  "distanceToNext" : 55,
+						  "distanceToPrev" : null
+						},
+						{ 
+						  "stop": 2,
+						  "stationName": "Gloucester",
+						  "stationID": 23,
+						  "distanceToNext" : 60,
+						  "distanceToPrev" : 55
+						},
+						{ 
+						  "stop": 3,
+						  "stationName": "Cardiff",
+						  "stationID": 19,
+						  "distanceToNext" : 45,
+						  "distanceToPrev" : 60
+						},
+						{ 
+						  "stop": 4,
+						  "stationName": "Bristol",
+						  "stationID": 18,
+						  "distanceToNext" : 45,
+						  "distanceToPrev" : 45
+						},
+						{ 
+						  "stop": 5,
+						  "stationName": "Yeovil",
+						  "stationID": 24,
+						  "distanceToNext" : 55,
+						  "distanceToPrev" : 45
+						},
+						{
+						  "stop": 6,
+						  "stationName": "Exeter",
+						  "stationID": 25,
+						  "distanceToNext" : 30,
+						  "distanceToPrev" : 55
+						},
+						{ 
+						  "stop": 7,
+						  "stationName": "Plymouth",
+						  "stationID": 26,
+						  "distanceToNext" : 55,
+						  "distanceToPrev" : 30
+						},
+						{ 
+						  "stop": 8,
+						  "stationName": "Truro",
+						  "stationID": 27,
+						  "distanceToNext" : null,
+						  "distanceToPrev" : 55
+						}
+					]
+		},
+		{
+			"name" : "South Western Main Line",
+			"color" : "purple",
+			"stops" : [
+						{ 
+						  "stop": 1,
+						  "stationName": "London",
+						  "stationID": 1,
+						  "distanceToNext" : 65,
+						  "distanceToPrev" : null
+						},
+						{ 
+						  "stop": 2,
+						  "stationName": "Brighton",
+						  "stationID": 28,
+						  "distanceToNext" : 45,
+						  "distanceToPrev" : 65
+						},
+						{ 
+						  "stop": 3,
+						  "stationName": "Southampton",
+						  "stationID": 29,
+						  "distanceToNext" : 65,
+						  "distanceToPrev" : 45
+						},
+						{ 
+						  "stop": 4,
+						  "stationName": "Weymouth",
+						  "stationID": 30,
+						  "distanceToNext" : 70,
+						  "distanceToPrev" : 65
+						},
+						{ 
+						  "stop": 5,
+						  "stationName": "Plymouth",
+						  "stationID": 26,
+						  "distanceToNext" : null,
+						  "distanceToPrev" : 70
+						}
+			
+			
+					]
+		},
+		{
+			"name" : "Cherwell Valley Line",
+			"color": "Honey",
+			"stops" : [
+						{ 
+						  "stop": 1,
+						  "stationName": "Reading",
+						  "stationID": 16,
+						  "distanceToNext" : 55,
+						  "distanceToPrev" : null
+						},
+						{ 
+						  "stop": 2,
+						  "stationName": "Oxford",
+						  "stationID": 31,
+						  "distanceToNext" : 70,
+						  "distanceToPrev" : 55
+						},
+						{ 
+						  "stop": 3,
+						  "stationName": "Birmingham",
+						  "stationID": 8,
+						  "distanceToNext" : null,
+						  "distanceToPrev" : 70
+						}
+					]
+		},
+		{
+			"name" : "Great Eastern Main Line",
+			"color" : "Yellow",
+			"stops" : [
+						{ 
+						  "stop": 1,
+						  "stationName": "London",
+						  "stationID": 1,
+						  "distanceToNext" : 65,
+						  "distanceToPrev" : null
+						},
+						{ 
+						  "stop": 2,
+						  "stationName": "Ipswich",
+						  "stationID": 32,
+						  "distanceToNext" : 85,
+						  "distanceToPrev" : 65
+						},
+						{ 
+						  "stop": 3,
+						  "stationName": "Norwich",
+						  "stationID": 33,
+						  "distanceToNext" : 20,
+						  "distanceToPrev" : 85
+						},
+						{ 
+						  "stop": 4,
+						  "stationName": "Kings Lynn",
+						  "stationID": 34,
+						  "distanceToNext" : null,
+						  "distanceToPrev" : 20
+						}
+			
+					]
+		},
+		{
+			"name" : "High Speed 1 Line",
+			"color" : "Grey",
+			"stops" : [
+						{ 
+						  "stop": 1,
+						  "stationName": "London",
+						  "stationID": 1,
+						  "distanceToNext" : 75,
+						  "distanceToPrev" : null
+						},
+						{ 
+						  "stop": 2,
+						  "stationName": "Dover",
+						  "stationID": 35,
+						  "distanceToNext" : 40,
+						  "distanceToPrev" : 75
+						},
+						{ 
+						  "stop": 3,
+						  "stationName": "Calais",
+						  "stationID": 36,
+						  "distanceToNext" : 180,
+						  "distanceToPrev" : 40
+						},
+						{ 
+						  "stop": 4,
+						  "stationName": "Paris",
+						  "stationID": 37,
+						  "distanceToNext" : null,
+						  "distanceToPrev" : 180
+						}
+					]
+		},
+		{
+			"name" : "Midland Main Line",
+			"color" : "Cyan",
+			"stops" : [
+						{ 
+						  "stop": 1,
+						  "stationName": "Birmingham",
+						  "stationID": 8,
+						  "distanceToNext" : 60,
+						  "distanceToPrev" : null
+						},
+						{ 
+						  "stop": 2,
+						  "stationName": "Nottingham",
+						  "stationID": 38,
+						  "distanceToNext" : 40,
+						  "distanceToPrev" : 75
+						},
+						{ 
+						  "stop": 3,
+						  "stationName": "Sheffield",
+						  "stationID": 39,
+						  "distanceToNext" : 55,
+						  "distanceToPrev" : 40
+						},
+						{ 
+						  "stop": 3,
+						  "stationName": "Manchester",
+						  "stationID": 11,
+						  "distanceToNext" : 50,
+						  "distanceToPrev" : 75
+						},
+						{ 
+						  "stop": 5,
+						  "stationName": "Leeds",
+						  "stationID": 40,
+						  "distanceToNext" : 35,
+						  "distanceToPrev" : 50
+						},
+						{ 
+						  "stop": 6,
+						  "stationName": "York",
+						  "stationID": 5,
+						  "distanceToNext" : null,
+						  "distanceToPrev" : 35
+						}
+			
+					] 
+		},
+		{
+			"name" : "Wales Main Line",
+			"color" : "Cream",
+			"stops" : [
+						{ 
+						  "stop": 1,
+						  "stationName": "Cardiff",
+						  "stationID": 19,
+						  "distanceToNext" : 60,
+						  "distanceToPrev" : null
+						},
+						{ 
+						  "stop": 2,
+						  "stationName": "Gloucester",
+						  "stationID": 23,
+						  "distanceToNext" : 50,
+						  "distanceToPrev" : 60
+						},
+						{ 
+						  "stop": 3,
+						  "stationName": "Hereford",
+						  "stationID": 41,
+						  "distanceToNext" : 45,
+						  "distanceToPrev" : 50
+						},
+						{ 
+						  "stop": 4,
+						  "stationName": "Wrexham",
+						  "stationID": 9,
+						  "distanceToNext" : 50,
+						  "distanceToPrev" : 45
+						},
+                        {
+                            "stop": 5,
+                            "stationName" : "Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch",
+                            "stationID" : 53,
+                            "distanceToNext" : 30,
+                            "distanceToPrev": 50
+                        },
+						{ 
+						  "stop": 6,
+						  "stationName": "Holyhead",
+						  "stationID": 42,
+						  "distanceToNext" : null,
+						  "distanceToPrev" : 30
+						}
+					]
+		},
+		{
+			"name" : "Central Wales Line",
+			"color" : "Pink",
+			"stops" : [
+						{ 
+						  "stop": 1,
+						  "stationName": "Cardiff",
+						  "stationID": 19,
+						  "distanceToNext" : 60,
+						  "distanceToPrev" : null
+						},
+						{ 
+						  "stop": 2,
+						  "stationName": "Gloucester",
+						  "stationID": 23,
+						  "distanceToNext" : 50,
+						  "distanceToPrev" : 60
+						},
+						{ 
+						  "stop": 3,
+						  "stationName": "Hereford",
+						  "stationID": 41,
+						  "distanceToNext" : 65,
+						  "distanceToPrev" : 50
+						},
+						{ 
+						  "stop": 4,
+						  "stationName": "Aberystwyth",
+						  "stationID": 43,
+						  "distanceToNext" : null,
+						  "distanceToPrev" : 65
+						}
+					]
+		},
+		{
+			"name" : "West Scotland Line",
+			"color" : "White",
+			"stops" : [
+						{ 
+						  "stop": 1,
+						  "stationName": "Stranraer",
+						  "stationID": 44,
+						  "distanceToNext" : 65,
+						  "distanceToPrev" : null
+						},
+						{ 
+						  "stop": 2,
+						  "stationName": "Dumfries",
+						  "stationID": 45,
+						  "distanceToNext" : 70,
+						  "distanceToPrev" : 65
+						},
+						{ 
+						  "stop": 3,
+						  "stationName": "Glasgow",
+						  "stationID": 15,
+						  "distanceToNext" : 85,
+						  "distanceToPrev" : 70
+						},
+						{ 
+						  "stop": 4,
+						  "stationName": "Oban",
+						  "stationID": 46,
+						  "distanceToNext" : 50,
+						  "distanceToPrev" : 85
+						},
+						{ 
+						  "stop": 5,
+						  "stationName": "Fort William",
+						  "stationID": 47,
+						  "distanceToNext" : null,
+						  "distanceToPrev" : 50
+						}
+					]	
+		},
+		{
+			"name" : "Edinburgh Main Line",
+			"color" : "Azure",
+			"stops" : [
+						{ 
+						  "stop": 1,
+						  "stationName": "Edinburgh",
+						  "stationID": 7,
+						  "distanceToNext" : 50,
+						  "distanceToPrev" : null
+						},
+						{ 
+						  "stop": 2,
+						  "stationName": "Dundee",
+						  "stationID": 48,
+						  "distanceToNext" : 65,
+						  "distanceToPrev" : 50
+						},
+						{ 
+						  "stop": 3,
+						  "stationName": "Aberdeen",
+						  "stationID": 49,
+						  "distanceToNext" : 88,
+						  "distanceToPrev" : 65
+						},
+						{ 
+						  "stop": 4,
+						  "stationName": "Inverness",
+						  "stationID": 50,
+						  "distanceToNext" : 120,
+						  "distanceToPrev" : 88
+						},
+						{ 
+						  "stop": 5,
+						  "stationName": "John O'Groats",
+						  "stationID": 101,
+						  "distanceToNext" : null,
+						  "distanceToPrev" : 120
+						}				
+					]
+		},
+		{
+			"name"  : "Glasgow-Edinburgh Line",
+			"color" : "lilac",
+			"stops" : [
+						{ 
+						  "stop": 1,
+						  "stationName": "Stranraer",
+						  "stationID": 44,
+						  "distanceToNext" : 65,
+						  "distanceToPrev" : null
+						},
+						{ 
+						  "stop": 2,
+						  "stationName": "Dumfries",
+						  "stationID": 45,
+						  "distanceToNext" : 70,
+						  "distanceToPrev" : 65
+						},
+						{ 
+						  "stop": 3,
+						  "stationName": "Glasgow",
+						  "stationID": 15,
+						  "distanceToNext" : 50,
+						  "distanceToPrev" : 70
+						},
+						{ 
+						  "stop": 4,
+						  "stationName": "Edinburgh",
+						  "stationID": 7,
+						  "distanceToNext" : null,
+						  "distanceToPrev" : 50
+						}
+					]
+		}
+		
+	]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "project-3-project-3-cs253f25_p3_08",
+  "version": "1.0.0",
+  "description": "By Elijah McCray, and Noah Prohl",
+  "main": "index.js",
+  "directories": {
+    "test": "project3"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wcu-edu/project-3-project-3-cs253f25_p3_08.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wcu-edu/project-3-project-3-cs253f25_p3_08/issues"
+  },
+  "homepage": "https://github.com/wcu-edu/project-3-project-3-cs253f25_p3_08#readme",
+  "devDependencies": {
+    "axios": "^1.13.2",
+    "express": "^5.2.0",
+    "jest": "^30.2.0"
+  }
+}

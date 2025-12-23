@@ -1,0 +1,75 @@
+{
+	"networkName": "Smokey Mountain Railway System",
+	"routes":[
+		{
+			"name" : "Bryson City to Dillsboro",
+			"color" : "Red",
+			"stops": [ 
+				{ 
+				  "stop": 1,
+				  "stationName": "Bryson City",
+				  "stationID": 1,
+				  "distanceToNext" : 20,
+				  "distanceToPrev" : null
+				},
+				{ 
+					"stop": 2,
+					"stationName":"Dillsboro",
+					"stationID" : 2,
+					"distanceToNext" : null,
+					"distanceToPrev" : 20
+				}
+			] 
+			
+		},
+		{
+			"name" : "Bryson City to Nantahala",
+			"color" : "blue",
+			"stops" : [ 
+						{ 
+						  "stop": 1,
+						  "stationName": "Bryson City",
+						  "stationID": 1,
+						  "distanceToNext" : 18,
+						  "distanceToPrev" : null
+						},
+						{ 
+						  "stop": 2,
+						  "stationName": "Nantahala",
+						  "stationID": 3,
+						  "distanceToNext" : null,
+						  "distanceToPrev" : 18
+						}
+					]
+		},
+		{
+			"name" : "Dillsboro to Nantahala",
+			"color" : "White",
+			"stops" : [ 
+						{ 
+						  "stop": 1,
+						  "stationName": "Dillsboro",
+						  "stationID": 2,
+						  "distanceToNext" : 20,
+						  "distanceToPrev" : null
+						},
+						{ 
+						  "stop": 2,
+						  "stationName": "Bryson City",
+						  "stationID": 1,
+						  "distanceToNext" : 18,
+						  "distanceToPrev" : 20
+						},
+						{ 
+						  "stop": 3,
+						  "stationName": "Nantahala",
+						  "stationID": 3,
+						  "distanceToNext" : null,
+						  "distanceToPrev" : 18
+						}
+					]
+		}
+	
+	
+	]
+}

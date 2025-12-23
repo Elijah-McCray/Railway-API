@@ -1,0 +1,48 @@
+{
+	"networkName": "Simpleton Railway System",
+	"routes":[
+		{
+			"name" : "Simpleton",
+			"color" : "Red",
+			"stops": [ 
+				{ 
+				  "stop": 1,
+				  "stationName": "Alphaville",
+				  "stationID": 1,
+				  "distanceToNext" : 25,
+				  "distanceToPrev" : null
+				},
+				{ 
+					"stop": 2,
+					"stationName":"Betaford",
+					"stationID" : 2,
+					"distanceToNext" : 25,
+					"distanceToPrev" : 25
+				},
+				{ 
+					"stop": 3,
+					"stationName":"Gammaton",
+					"stationID" : 3,
+					"distanceToNext" : 25,
+					"distanceToPrev" : 25
+				},
+				{ 
+					"stop": 4,
+					"stationName":"Deltafield",
+					"stationID" : 4,
+					"distanceToNext" : 25,
+					"distanceToPrev" : 25
+				},
+				{ 
+					"stop": 5,
+					"stationName":"Epsilon",
+					"stationID" : 5,
+					"distanceToNext" : null,
+					"distanceToPrev" : 25
+				}
+			] 
+			
+		}
+	
+	]
+}

@@ -1,0 +1,117 @@
+{
+	"networkName": "Notional Railway System",
+	"routes":[
+		{
+			"name" : "Cambleton Line",
+			"color" : "Magenta",
+			"stops": [
+				{
+				  "stop": 1,
+				  "stationName": "Campbell Glen",
+				  "stationID": 1,
+				  "distanceToNext" : 25,
+				  "distanceToPrev" : null
+				},
+				{
+					"stop": 2,
+					"stationName":"Tyson",
+					"stationID" : 2,
+					"distanceToNext" : 25,
+					"distanceToPrev" : 25
+				},
+				{
+					"stop": 3,
+					"stationName":"Central",
+					"stationID" : 3,
+					"distanceToNext" : 25,
+					"distanceToPrev" : 25
+				},
+				{
+					"stop": 4,
+					"stationName":"Bieberville",
+					"stationID" : 4,
+					"distanceToNext" : 25,
+					"distanceToPrev" : 25
+				},
+				{
+					"stop": 5,
+					"stationName":"Elton",
+					"stationID" : 5,
+					"distanceToNext" : null,
+					"distanceToPrev" : 25
+				}
+			]
+
+		},
+		{
+			"name" : "Northern Line",
+			"color" : "blue",
+			"stops" : [
+						{
+						  "stop": 1,
+						  "stationName": "Tadcaster",
+						  "stationID": 6,
+						  "distanceToNext" : 30,
+						  "distanceToPrev" : null
+						},
+						{
+						  "stop": 2,
+						  "stationName": "Central",
+						  "stationID": 3,
+						  "distanceToNext" : 30,
+						  "distanceToPrev" : 30
+						},
+						{
+						  "stop": 3,
+						  "stationName": "Lackluster",
+						  "stationID": 7,
+						  "distanceToNext" : null,
+						  "distanceToPrev" : 30
+						}
+					]
+		},
+		{
+			"name" : "Central Line",
+			"color" : "Red",
+			"stops" : [
+						{
+						  "stop": 1,
+						  "stationName": "Campbell Glen",
+						  "stationID": 1,
+						  "distanceToNext" : 25,
+						  "distanceToPrev" : null
+						},
+						{
+						  "stop": 2,
+						  "stationName": "Tyson",
+						  "stationID": 2,
+						  "distanceToNext" : 25,
+						  "distanceToPrev" : 25
+						},
+						{
+						  "stop": 3,
+						  "stationName": "Central",
+						  "stationID": 3,
+						  "distanceToNext" : 25,
+						  "distanceToPrev" : 25
+						},
+						{
+						  "stop": 4,
+						  "stationName": "Bury",
+						  "stationID": 8,
+						  "distanceToNext" : 25,
+						  "distanceToPrev" : 25
+						},
+						{
+						  "stop": 5,
+						  "stationName": "Chester",
+						  "stationID": 9,
+						  "distanceToNext" : null,
+						  "distanceToPrev" : 25
+						}
+					]
+		}
+
+
+	]
+}
