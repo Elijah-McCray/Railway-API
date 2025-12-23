@@ -1,5 +1,4 @@
-# CS253 Project 3: Railway API
-By Elijah McCray, and Noah Prohl
+Railway API
 
 This project uses user input from the command line to fetch and display information about railway
 systems from JSON files in the provided_data_sets folder using a client/server system and includes
@@ -146,3 +145,4 @@ testing files for every client and railway file except for routeSummary files.
     1. This project uses jest for testing and code coverage
     *Note: Tests are implemented for all files except client_routeSummary and railway_routeSummary
     2. To run tests enter: "npm run test:coverage" into the command line. (Without the quotes)
+
